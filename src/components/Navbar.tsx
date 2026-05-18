@@ -45,8 +45,6 @@ const Navbar = () => {
               height={64}
               style={{
                 objectFit: "contain",
-                filter: isScrolled ? "none" : "brightness(0) invert(1)",
-                transition: "filter 0.4s ease",
               }}
             />
           </Link>
