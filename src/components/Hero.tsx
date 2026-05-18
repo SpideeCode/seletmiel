@@ -186,7 +186,7 @@ const Hero = () => {
           opacity: 0,
           animation: "fadeIn 1s ease 1.2s forwards",
         }}>
-          {["Boulevard Albert II", "Boulevard Lemonnier"].map((name) => (
+          {["Boulevard Lemonnier", "Boulevard Albert II"].map((name) => (
             <div key={name} style={{ textAlign: "center" }}>
               <span style={{
                 fontFamily: "'Jost', sans-serif",

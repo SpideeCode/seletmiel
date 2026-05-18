@@ -37,14 +37,15 @@ const Navbar = () => {
       >
         <div className="container" style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           {/* Logo */}
-          <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center" }}>
+          <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center"}}>
             <Image
               src="/img/logoseletmiel.png"
               alt="Sel & Miel — Restaurant Crêperie"
               width={64}
               height={64}
               style={{
-                objectFit: "contain",
+                objectFit: "cover",
+                borderRadius: "50%",
               }}
             />
           </Link>
@@ -162,7 +163,7 @@ const Navbar = () => {
           alt="Sel & Miel"
           width={80}
           height={80}
-          style={{ objectFit: "contain", marginBottom: "1rem" }}
+          style={{ objectFit: "cover", borderRadius: "50%", marginBottom: "1rem" }}
         />
         {navLinks.map((link) => (
           <Link
